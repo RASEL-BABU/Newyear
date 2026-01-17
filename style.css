@@ -4,12 +4,54 @@ header{
   justify-content: center; 
   align-items: center;    
   height: 100%;   
-
 }
 .text{
    
     position: absolute;
     color: white;
-   font-size: 50px;
-  
+    font-size: 50px;
 }
+.center {
+    text-align: center;
+    text-transform: capitalize;
+    color: red;
+    text-transform: uppercase;
+}
+
+
+.center h2 {text-transform: uppercase;
+ color: black
+}
+
+.center2 {
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  height: 100%; 
+
+}
+.text2 {
+   
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-right: 20%;
+ 
+}
+.text2 p {
+    font-size: 14px;
+}
+.btn{
+    
+    padding-right: 50%;
+}
+.details{
+background-color: rgb(255, 0, 0) ;opacity:0.2;
+justify-content: center; 
+  align-items: center;    
+  height: 100%; 
+
+}
+
+    

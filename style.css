@@ -46,12 +46,25 @@ header{
     
     padding-right: 50%;
 }
-.details{
-background-color: rgb(255, 0, 0) ;opacity:0.2;
-justify-content: center; 
-  align-items: center;    
-  height: 100%; 
+.event{
+            margin-top: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #ffffff;
+            font-family: Arial, Helvetica, sans-serif;
+}
+.event-details{
+            width: 85%;
+            max-width: 900px;
+            padding: 50px 20px;
+            text-align: center;
+            border-radius: 12px;
+            background: linear-gradient(to bottom, #fde6e6, #ffffff);
+}
 
+span{
+    color: red;
 }
 
     
